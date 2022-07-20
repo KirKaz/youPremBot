@@ -276,6 +276,18 @@
             "config/packages/messenger.yaml"
         ]
     },
+    "tg-bot-api/bot-api-base": {
+        "version": "1.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "320d85cf0ca6c58d58c71db7487418b6b788567c"
+        },
+        "files": [
+            "config/packages/tg_bot_api.yaml"
+        ]
+    },
     "twig/extra-bundle": {
         "version": "v3.4.0"
     }
